@@ -6,7 +6,7 @@
     let rarities = await ac.rarities.getRarities();
     let me = (await ac.user.getUser()).data.user;
 
-    let target = prompt('Enter a Blook to target:');
+    let target = prompt('Enter a Blue to target:');
     if (!blues.find(b => b.name === target)) return alert('I can\'t find that Blue.');
     let pack = packs.find(pack => pack.blues.includes(target));
     if (!pack) return alert(`That Blue doesn't have a pack.`);
