@@ -1,0 +1,39 @@
+{
+    "name": "blulet-admin-server",
+    "authors": [
+        "monkxy",
+        "zastix"
+    ],
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon -I --exec node --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts",
+        "production": "node dist/src/index.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "bcrypt": "^5.1.1",
+        "connect-mongodb-session": "^3.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "google-auth-library": "^9.4.1",
+        "jsonwebtoken": "^9.0.2",
+        "jwt-decode": "^4.0.0",
+        "max-listeners-exceeded-warning": "^0.0.1",
+        "mongoose": "^8.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "ws": "^8.15.1"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/connect-mongodb-session": "^2.4.7",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/express-session": "^1.17.10",
+        "ts-node-dev": "^2.0.0",
+        "tsconfig-paths": "^4.2.0"
+    }
+}

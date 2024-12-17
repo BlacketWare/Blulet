@@ -1,0 +1,354 @@
+.header {
+    background-color: $primary-color;
+    box-shadow: inset 0 -6px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    left: 0;
+    overflow: hidden;
+    padding-bottom: 6px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10
+}
+
+.bluletText {
+    color: $accent-color;
+    cursor: pointer;
+    font-family: "Titan One", sans-serif;
+    font-size: 40px;
+    line-height: 49px;
+    margin-left: 40px;
+    outline: none;
+    text-align: left;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.headerRight {
+    color: $accent-color;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    outline: none;
+    padding-right: 40px;
+    text-align: right;
+    text-decoration: underline
+}
+
+.headerLeft {
+    color: $accent-color;
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    line-height: 49px;
+    padding-left: 20px;
+    text-align: left;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.regularBody {
+    height: calc(100% - 55px);
+    top: 55px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.planContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 25px auto 45px;
+    max-width: 1200px;
+}
+
+@media screen and (max-width: 1050px) {
+    .planContainer {
+        flex-direction: column;
+    }
+}
+
+.plan {
+    width: 350px;
+    background-color: $primary-color;
+    padding-bottom: 7px;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.planBackgroundContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.planBackground {
+    height: 125px;
+    width: 400px;
+    padding-bottom: 7px;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    position: absolute;
+    top: -30px;
+    left: -25px;
+    transform: rotate(5deg);
+}
+
+.plan2 {
+    background-color: #009bff;
+}
+
+.planTop {
+    font-size: 65px;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.planSale,
+.planTop {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}
+
+.planPrice,
+.planSubText {
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    color: $accent-color;
+}
+
+.planPrice {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.planSubText {
+    font-size: 16px;
+    opacity: .8;
+    margin-bottom: 25px;
+}
+
+.planDetail {
+    font-size: 22px;
+    text-align: center;
+    font-family: Nunito, sans-serif;
+    color: $accent-color;
+}
+
+.planSpacer {
+    width: 80%;
+    margin: 3px auto;
+    height: 2px;
+    background-color: $accent-color;
+    border-radius: 5px;
+}
+
+.planButton {
+    width: 80%;
+    margin: 25px auto 20px;
+}
+
+.button {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: filter .25s;
+    z-index: 1;
+}
+
+.edge,
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.shadow {
+    background: rgba(0, 0, 0, .25);
+    transform: translateY(2px);
+    transition: transform .6s cubic-bezier(.3, .7, .4, 1);
+}
+
+.edge {
+    filter: brightness(.7);
+}
+
+.front {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translateY(-4px);
+    transition: transform .6s cubic-bezier(.3, .7, .4, 1);
+}
+
+.planButtonInside {
+    height: 40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.planShimmer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .1) 50%, rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+}
+
+.button:hover {
+    filter: brightness(110%)
+}
+
+.button:hover .front {
+    transform: translateY(-6px);
+    transition: transform .25s cubic-bezier(.3, .7, .4, 1.5)
+}
+
+.button:active .front {
+    transform: translateY(-2px);
+    transition: transform 34ms
+}
+
+.button:hover .shadow {
+    transform: translateY(4px);
+    transition: transform .25s cubic-bezier(.3, .7, .4, 1.5)
+}
+
+.button:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms
+}
+
+.centerWrapper,
+.payContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.centerWrapper {
+    width: 100%;
+    min-height: 100%;
+    justify-content: center;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.payContainer {
+    width: 85%;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+    background-color: $primary-color;
+    padding-bottom: 7px;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+    border-radius: 7px;
+    align-items: center;
+    color: $accent-color;
+}
+
+.payHeader {
+    font-family: Nunito, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px auto 0;
+}
+
+.paySpacer {
+    width: 90%;
+    margin: 3px auto;
+    height: 2px;
+    background-color: $accent-color;
+    border-radius: 5px;
+}
+
+.payRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: $accent-color;
+}
+
+.payMessage,
+.payRow {
+    font-family: Nunito, sans-serif;
+    width: 90%;
+}
+
+.payColumn {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+}
+
+.payItem {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.payDesc {
+    font-size: 18px;
+    opacity: .8;
+    font-weight: 700;
+}
+
+.payPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.payButton {
+    width: 240px;
+    margin: 25px auto 20px;
+}

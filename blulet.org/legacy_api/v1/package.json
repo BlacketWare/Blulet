@@ -1,0 +1,44 @@
+{
+    "name": "blulet-server",
+    "authors": [
+        "monkxy",
+        "zastix"
+    ],
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon -I --exec node --experimental-modules --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts",
+        "production": "node dist/src/index.js"
+    },
+    "dependencies": {
+        "@types/express-ws": "^3.0.4",
+        "axios": "^1.6.2",
+        "bcrypt": "^5.1.1",
+        "bun": "^1.0.20",
+        "connect-mongodb-session": "^3.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "esm": "^3.2.25",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "express-ws": "^5.0.2",
+        "http-proxy-middleware": "^2.0.6",
+        "max-listeners-exceeded-warning": "^0.0.1",
+        "mongoose": "^8.0.3",
+        "nodemon": "^3.0.2",
+        "querystring": "^0.2.1",
+        "stripe": "^14.10.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3",
+        "ws": "^8.15.1"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/connect-mongodb-session": "^2.4.7",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/express-session": "^1.17.10",
+        "ts-node-dev": "^2.0.0",
+        "tsconfig-paths": "^4.2.0"
+    }
+}

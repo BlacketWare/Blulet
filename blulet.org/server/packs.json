@@ -1,0 +1,277 @@
+[
+  {
+    "_id": {
+      "$oid": "657f39727dbc504dda3117cf"
+    },
+    "name": "Debug",
+    "price": -1000,
+    "colors": [
+      "#FFFFFF",
+      "#000000"
+    ],
+    "blues": [
+      "Debug"
+    ],
+    "image": "https://media.blulet.org/packs/Debug.png",
+    "createdAt": {
+      "$date": "2023-12-17T18:09:54.583Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.009Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586553f7f9e2dfd76620ddd"
+    },
+    "name": "Blizzard",
+    "price": 25,
+    "colors": [
+      "#bbddff",
+      "#31aae0"
+    ],
+    "blues": [
+      "Snow Globe",
+      "Holiday Gift",
+      "Hot Chocolate",
+      "Holiday Wreath",
+      "Stocking",
+      "Gingerbread Man",
+      "Gingerbread House",
+      "Reindeer",
+      "Snowman",
+      "Santa Claus",
+      "Red Sweater Snowman",
+      "Blue Sweater Snowman",
+      "Elf Sweater Snowman"
+    ],
+    "image": "https://media.blulet.org/packs/Blizzard.png",
+    "createdAt": {
+      "$date": "2023-12-23T03:34:23.995Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.016Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780d1ff1192d3f0521bf3"
+    },
+    "name": "Pirate",
+    "price": 25,
+    "colors": [
+      "#68dbff",
+      "#0c99c6"
+    ],
+    "blues": [
+      "Deckhand",
+      "Buccaneer",
+      "Swashbuckler",
+      "Treasure Map",
+      "Seagull",
+      "Jolly Pirate",
+      "Pirate Ship",
+      "Kraken",
+      "Captain Blackbeard",
+      "Pirate Pufferfish"
+    ],
+    "image": "https://media.blulet.org/packs/Pirate.png",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:33.034Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.020Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d6324e5529b39b6c2a1b"
+    },
+    "name": "Outback",
+    "price": 25,
+    "colors": [
+      "#f08941",
+      " #96421d"
+    ],
+    "blues": [
+      "Dingo",
+      "Echidna",
+      "Koala",
+      "Kookaburra",
+      "Platypus",
+      "Joey",
+      "Kangaroo",
+      "Crocodile",
+      "Sugar Glider",
+      "Teal Platypus"
+    ],
+    "image": "https://media.blulet.org/packs/Outback.png",
+    "createdAt": {
+      "$date": "2024-01-02T09:24:02.082Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.023Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659486b54e5529b39b6c2b2e"
+    },
+    "name": "Ice Monster",
+    "price": 25,
+    "colors": [
+      "#1d4c5e",
+      "#003449"
+    ],
+    "blues": [
+      "Ice Bat",
+      "Ice Bug",
+      "Ice Elemental",
+      "Rock Monster",
+      "Dink",
+      "Donk",
+      "Bush Monster",
+      "Yeti",
+      "Ice Slime",
+      "Frozen Fossil",
+      "Ice Crab"
+    ],
+    "image": "https://media.blulet.org/packs/Ice Monsters.png",
+    "createdAt": {
+      "$date": "2024-01-02T21:57:09.085Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.025Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65948aaa4e5529b39b6c2b58"
+    },
+    "name": "Wonderland",
+    "price": 20,
+    "colors": [
+      "#00aaff",
+      "#612057"
+    ],
+    "blues": [
+      "Two of Spades",
+      "Eat Me",
+      "Drink Me",
+      "Alice",
+      "Queen of Hearts",
+      "Dormouse",
+      "White Rabbit",
+      "Cheshire Cat",
+      "Caterpillar",
+      "Mad Hatter",
+      "King of Hearts"
+    ],
+    "image": "https://media.blulet.org/packs/Wonderland.png",
+    "createdAt": {
+      "$date": "2024-01-02T22:14:02.349Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.027Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ae814e5529b39b6c2bdf"
+    },
+    "name": "Breakfast",
+    "price": 20,
+    "colors": [
+      "#ffa75f",
+      "#c15523"
+    ],
+    "blues": [
+      "Toast",
+      "Cereal",
+      "Yogurt",
+      "Breakfast Combo",
+      "Orange Juice",
+      "Milk",
+      "Waffle",
+      "Pancakes",
+      "French Toast",
+      "Pizza",
+      "Sandwich",
+      "Cookies Combo"
+    ],
+    "image": "https://media.blulet.org/packs/Breakfast.png",
+    "createdAt": {
+      "$date": "2024-01-03T00:46:57.395Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.030Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b2d84e5529b39b6c2c1b"
+    },
+    "name": "Dino",
+    "price": 25,
+    "colors": [
+      "#a0bd41",
+      "#153b31"
+    ],
+    "blues": [
+      "Amber",
+      "Dino Egg",
+      "Dino Fossil",
+      "Stegosaurus",
+      "Velociraptor",
+      "Brontosaurus",
+      "Triceratops",
+      "Tyrannosaurus Rex",
+      "Golden Dino Egg"
+    ],
+    "image": "https://media.blulet.org/packs/Dino.png",
+    "createdAt": {
+      "$date": "2024-01-03T01:05:28.462Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.035Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6595fdd65d7425c22e314726"
+    },
+    "name": "Bot",
+    "price": 20,
+    "colors": [
+      "#33cc33",
+      "#2d8659"
+    ],
+    "blues": [
+      "Lil Bot",
+      "Lovely Bot",
+      "Angry Bot",
+      "Happy Bot",
+      "Watson",
+      "Buddy Bot",
+      "Brainy Bot",
+      "Mega Bot",
+      "Hacked Bot"
+    ],
+    "image": "https://media.blulet.org/packs/Bot.png",
+    "createdAt": {
+      "$date": "2024-01-04T00:37:42.936Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-06T00:34:21.038Z"
+    },
+    "__v": 0
+  }
+]

@@ -1,0 +1,394 @@
+::-webkit-scrollbar {
+    display: none;
+    opacity: 0;
+}
+
+.hostBody {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+.body,
+.hostBody {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hostRegularBody {
+    width: 100%;
+    height: calc(100% - 65px);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1050px) {
+    .hostRegularBody {
+        width: 100%;
+        height: calc(100% - 65px);
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 220px;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.containerOne {
+    position: absolute;
+    height: calc(85vh - 65px);
+    width: 25vw;
+    top: 10vh;
+    left: 37.5vw;
+    border-radius: 10px;
+    background-color: $primary-color;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.containerInside {
+    position: absolute;
+    width: calc(90% - 20px);
+    height: calc(100% - 10px);
+    top: 10px;
+    left: 30px;
+    box-sizing: border-box;
+}
+
+
+.nameTextOne {
+    height: 12.5vh;
+    top: 2vh;
+    font-family: "Titan One", sans-serif;
+}
+
+.scoreTextOne {
+    height: 7.5vh;
+    top: 17vh;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.nameTextOne,
+.scoreTextOne {
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.placeOne {
+    height: 6vw;
+    width: 6vw;
+    top: -3vw;
+    right: -4.5vw;
+    color: #fff;
+    background-color: #ffe900;
+}
+
+.containerTwo,
+.placeOne {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+}
+
+.placeText {
+    text-align: right;
+    width: 2.6vw;
+    height: 5vw;
+    top: .5vw;
+    left: .75vw;
+}
+
+.superPlaceText,
+.placeText {
+    position: absolute;
+    font-family: "Titan One", sans-serif;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    float: left;
+}
+
+.superPlaceText {
+    text-align: center;
+    top: .75vw;
+    left: 3.45vw;
+    height: 1.7vw;
+    width: 1.85vw;
+    text-align: left;
+}
+
+.blueContainer {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    outline: none;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firstBlue {
+    position: absolute;
+    top: calc(100% - 22vw);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20.7vw;
+    width: 18vw;
+}
+
+.blue {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.containerTwo {
+    height: calc(67.5vh - 65px);
+    width: 25vw;
+    top: 27.5vh;
+    left: 7.5vw;
+    background-color: $primary-color;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.nameTextTwo {
+    height: 10vh;
+    top: 2vh;
+    font-family: "Titan One", sans-serif;
+}
+
+.nameTextTwo,
+.scoreTextTwo {
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.scoreTextTwo {
+    height: 6vh;
+    top: 13.5vh;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+}
+
+.placeTwo {
+    height: 6vw;
+    width: 6vw;
+    top: -3vw;
+    right: -4.5vw;
+    color: #fff;
+    background-color: #818181;
+}
+
+.containerThree,
+.placeTwo {
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+}
+
+.secondBlue {
+    position: absolute;
+    top: calc(100% - 16.94vw);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15.64vw;
+    width: 13.6vw;
+}
+
+.containerThree {
+    height: calc(55vh - 65px);
+    width: 25vw;
+    top: 40vh;
+    left: 67.5vw;
+    background-color: $primary-color;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.nameTextThree,
+.scoreTextThree {
+    position: absolute;
+    text-align: center;
+    width: 20vw;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.nameTextThree {
+    height: 8.5vh;
+    top: 2vh;
+    font-family: "Titan One", sans-serif;
+}
+
+.scoreTextThree {
+    height: 5vh;
+    top: 11.75vh;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.placeThree {
+    position: absolute;
+    height: 6vw;
+    width: 6vw;
+    top: -3vw;
+    right: -4.5vw;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #cd7f32;
+    box-shadow: inset 0 -7px rgba(0, 0, 0, .2), 0 0 4px rgba(0, 0, 0, .15);
+}
+
+.thirdBlue {
+    position: absolute;
+    top: calc(100% - 11.995vw);
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10.695vw;
+    width: 9.3vw;
+}
+
+.standingHolder,
+.standingsArray {
+    display: flex;
+    flex-direction: column;
+}
+
+.standingsArray {
+    position: absolute;
+    top: 96vh;
+    left: 10vw;
+    width: 80vw;
+    padding: 1vh 0 4vh;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    .standingsArray {
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+.standingHolder {
+    width: 100%;
+    margin: 12.5px auto;
+}
+
+.standingContainer {
+    background-color: $primary-color;
+    border-radius: 7px;
+    box-shadow: inset 0 -5px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+}
+
+.standingPlaceText,
+.standingSuperPlaceText {
+    font-family: "Titan One", sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.standingPlaceText {
+    padding-left: 10px;
+    min-width: 60px;
+    line-height: 70px;
+    font-size: 45px;
+    text-align: right;
+}
+
+.standingSuperPlaceText {
+    text-align: left;
+    width: 22px;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+
+.standingBlook {
+    height: 57.5px;
+    width: 50px;
+    margin: 6.25px 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.standingNameText,
+.standingStatText {
+    font-weight: 700;
+    line-height: 70px;
+    font-family: "Nunito", sans-serif;
+}
+
+.standingNameText {
+    margin-left: 12px;
+    font-size: 36px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.standingStatText {
+    font-size: 32px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.tokenIcon {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+    top: 3px;
+}

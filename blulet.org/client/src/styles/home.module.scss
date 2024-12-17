@@ -1,0 +1,261 @@
+.headerContainer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@media only screen and (max-width: 1050px) {
+    .headerContainer {
+        height: 100vh;
+    }
+}
+
+.headerImage {
+    height: 100vh;
+    width: 52.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: -1;
+    filter: drop-shadow(0px 0px 10px $primary-color);
+}
+
+@media only screen and (max-width: 1050px) {
+    .headerImage {
+        top: 70px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.topHeaderContainer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    .topHeaderContainer {
+        left: 5vw;
+        top: 41vh;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.topButtonContainer {
+    position: absolute;
+    top: 3vh;
+    right: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1050px) {
+    .topButtonContainer {
+        width: 100%;
+        top: 2vh;
+        left: 0;
+    }
+}
+
+.topButton {
+    border-radius: 7px;
+    padding-bottom: 5px;
+    box-shadow: 0px -5px rgba(0, 0, 0, 0.2) inset, 0px 0px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    user-select: none;
+    transition: 200ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.registerButton {
+    width: 25vh;
+    height: 8vh;
+    line-height: 8vh;
+    font-size: 4.4vh;
+    background-color: $secondary-color;
+    color: $accent-color;
+}
+
+.loginButton {
+    margin-right: 2.5vw;
+    width: 18vh;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 3.6vh;
+    background-color: $primary-color;
+    color: $accent-color;
+}
+
+@media only screen and (max-width: 1050px) {
+    .loginButton {
+        margin-right: 5vw;
+    }
+}
+
+.headerSide {
+    background-color: $primary-color;
+    box-shadow: -8px 0px rgba(0, 0, 0, 0.2) inset, 0px 0px 4px rgba(0, 0, 0, 0.15);
+    width: 70vw;
+    height: 132vh;
+    position: absolute;
+    top: -10vh;
+    left: -20vw;
+    transform: rotate(-15deg);
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1050px) {
+    .headerSide {
+        width: 130vw;
+        height: 65vh;
+        top: 40vh;
+        left: -20vw;
+        transform: rotate(4deg);
+    }
+}
+
+.logoText {
+    font-size: 7.3vh;
+    font-family: "Titan One", sans-serif;
+    text-shadow: 2px 2px 8px rgb(128, 128, 128);
+    color: $accent-color;
+}
+
+.welcomeContainer {
+    position: absolute;
+    top: 22vh;
+    left: 5vw;
+    color: $accent-color;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1050px) {
+    .welcomeContainer {
+        top: 57.5vh;
+    }
+}
+
+.welcomeText {
+    color: $accent-color;
+    font-size: 8.83vh;
+    line-height: 9.13vh;
+    text-shadow: 2px 2px 8px rgb(128, 128, 128);
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1050px) {
+    .welcomeText {
+        font-size: 6vh;
+        line-height: 6.5vh;
+    }
+}
+
+.welcomeDesc {
+    font-size: 3.35vh;
+    margin: 3vh 0;
+    color: $accent-color;
+}
+
+@media only screen and (max-width: 1050px) {
+    .welcomeDesc {
+        font-size: 2.2vh;
+        margin: 1.5vh 0 3vh;
+    }
+}
+
+.welcomeButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+@media only screen and (max-width: 1050px) {
+    .welcomeButtons {
+        align-items: center;
+        flex-direction: row;
+        gap: 2vw;
+    }
+}
+
+.welcomeButton {
+    border-color: $accent-color;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 3px;
+    font-size: 4.26vh;
+    width: 32vh;
+    line-height: 7vh;
+    text-align: center;
+    color: $accent-color;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 200ms, color 200ms;
+
+    &:hover,
+    &:focus {
+        background-color: #fff;
+        color: $primary-color;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .welcomeButton {
+        font-size: 3vh;
+        width: 20vh;
+        line-height: 4.5vh;
+    }
+}
+
+.pronounceButton {
+    color: #fff;
+    font-size: 3vh;
+    line-height: 4vh;
+    margin-top: 5vh;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 1050px) {
+    .pronounceButton {
+        font-size: 2vh;
+        line-height: 3vh;
+        margin-top: 1.5vh;
+    }
+}
+
+.infoHolder {
+    position: absolute;
+    bottom: 0;
+    margin: 0.5vh;
+    color: $accent-color; 
+    font-size: 1.5vh;
+}
+
+@media only screen and (max-width: 1050px) {
+    .infoHolder {
+        font-size: 1vh;
+    }
+}

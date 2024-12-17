@@ -1,0 +1,1550 @@
+[
+  {
+    "_id": {
+      "$oid": "6586543bc2357d152f1e5de2"
+    },
+    "name": "Santa Claus",
+    "rarity": "Legendary",
+    "chance": 1,
+    "image": "santaClaus",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-23T03:30:03.819Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T01:25:49.827Z"
+    },
+    "__v": 0,
+    "price": 200
+  },
+  {
+    "_id": {
+      "$oid": "6586543bc2357d152f1e5de4"
+    },
+    "name": "Red Sweater Snowman",
+    "rarity": "Chroma",
+    "chance": 0.02,
+    "image": "redSweaterSnowman",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-23T03:30:03.820Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T01:25:49.831Z"
+    },
+    "__v": 0,
+    "price": 300
+  },
+  {
+    "_id": {
+      "$oid": "6586543bc2357d152f1e5de6"
+    },
+    "name": "Blue Sweater Snowman",
+    "rarity": "Chroma",
+    "chance": 0.02,
+    "image": "blueSweaterSnowman",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-23T03:30:03.821Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T01:25:49.831Z"
+    },
+    "__v": 0,
+    "price": 300
+  },
+  {
+    "_id": {
+      "$oid": "6586543bc2357d152f1e5de8"
+    },
+    "name": "Elf Sweater Snowman",
+    "rarity": "Chroma",
+    "chance": 0.01,
+    "image": "elfSweaterSnowman",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-23T03:30:03.822Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T01:25:49.832Z"
+    },
+    "__v": 0,
+    "price": 300
+  },
+  {
+    "_id": {
+      "$oid": "658654913d0cfe31911ac5c2"
+    },
+    "name": "Debug",
+    "rarity": "Common",
+    "price": 0,
+    "chance": 100,
+    "image": "Default",
+    "background": "Default",
+    "createdAt": {
+      "$date": "2023-12-23T03:31:29.565Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T01:25:49.833Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740919"
+    },
+    "name": "Deckhand",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 16,
+    "image": "deckhand",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.673Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.673Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a4874091c"
+    },
+    "name": "Buccaneer",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 16,
+    "image": "buccaneer",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.676Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.676Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a4874091f"
+    },
+    "name": "Swashbuckler",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 16,
+    "image": "swashbuckler",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.678Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.678Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740922"
+    },
+    "name": "Treasure Map",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 16,
+    "image": "treasureMap",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.680Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.680Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740925"
+    },
+    "name": "Seagull",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 16,
+    "image": "seagull",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.682Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.682Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740928"
+    },
+    "name": "Jolly Pirate",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 8,
+    "image": "jollyPirate",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.684Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.684Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a4874092c"
+    },
+    "name": "Pirate Ship",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 8,
+    "image": "pirateShip",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.691Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.691Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a4874092f"
+    },
+    "name": "Kraken",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 3.67,
+    "image": "kraken",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.701Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.701Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740932"
+    },
+    "name": "Captain Blackbeard",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.3,
+    "image": "captainBlackbeard",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.702Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.702Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658780eab1f6ff2a48740935"
+    },
+    "name": "Pirate Pufferfish",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.03,
+    "image": "piratePufferfish",
+    "background": "Pirate",
+    "createdAt": {
+      "$date": "2023-12-24T00:52:58.703Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T00:52:58.703Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47bf"
+    },
+    "name": "Snow Globe",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 14.5,
+    "image": "snowGlobe",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.609Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.609Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47c2"
+    },
+    "name": "Holiday Gift",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 14.5,
+    "image": "holidayGift",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.615Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.615Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47c5"
+    },
+    "name": "Hot Chocolate",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 14.5,
+    "image": "hotChocolate",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.618Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.618Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47c8"
+    },
+    "name": "Holiday Wreath",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 14.5,
+    "image": "holidayWreath",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.620Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.620Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47cb"
+    },
+    "name": "Stocking",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 14.5,
+    "image": "stocking",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.622Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.622Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47ce"
+    },
+    "name": "Gingerbread Man",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7.1,
+    "image": "gingerbreadMan",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.624Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.624Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47d1"
+    },
+    "name": "Gingerbread House",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7.1,
+    "image": "gingerbreadHouse",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.629Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.629Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47d5"
+    },
+    "name": "Reindeer",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7.1,
+    "image": "reindeer",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.633Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.633Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "658795998dad892fbf9f47d8"
+    },
+    "name": "Snowman",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 5.15,
+    "image": "snowman",
+    "background": "Blizzard",
+    "createdAt": {
+      "$date": "2023-12-24T02:21:13.647Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-24T02:21:13.647Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d3ea4e5529b39b6c29fd"
+    },
+    "name": "Dingo",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 18.75,
+    "image": "dingo",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:14:18.930Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:14:18.930Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d4114e5529b39b6c2a00"
+    },
+    "name": "Echidna",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 18.75,
+    "image": "echidna",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:14:57.962Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:14:57.962Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d42d4e5529b39b6c2a03"
+    },
+    "name": "Koala",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 18.75,
+    "image": "koala",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:15:25.485Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:15:25.485Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d4a44e5529b39b6c2a07"
+    },
+    "name": "Kookaburra",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 18.75,
+    "image": "kookaburra",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:17:24.892Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:17:24.892Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d5114e5529b39b6c2a0c"
+    },
+    "name": "Joey",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7,
+    "image": "joey",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:19:13.784Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:19:13.784Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d51a4e5529b39b6c2a0f"
+    },
+    "name": "Kangaroo",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7,
+    "image": "kangaroo",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:19:22.546Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:19:22.546Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d52b4e5529b39b6c2a12"
+    },
+    "name": "Crocodile",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 3.6,
+    "image": "crocodile",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:19:39.687Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:19:39.687Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d5824e5529b39b6c2a15"
+    },
+    "name": "Sugar Glider",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.37,
+    "image": "sugarGlider",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:21:06.379Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:21:06.379Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d59e4e5529b39b6c2a18"
+    },
+    "name": "Teal Platypus",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.03,
+    "image": "tealPlatypus",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:21:34.581Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:21:34.581Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6593d6cc4e5529b39b6c2a1e"
+    },
+    "name": "Platypus",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 7,
+    "image": "platypus",
+    "background": "Outback",
+    "createdAt": {
+      "$date": "2024-01-02T09:26:36.533Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T09:26:36.533Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594859e4e5529b39b6c2b0d"
+    },
+    "name": "Ice Bat",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "iceBat",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:52:30.419Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:52:30.419Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485a94e5529b39b6c2b10"
+    },
+    "name": "Ice Bug",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "iceBug",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:52:41.064Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:52:41.064Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485b64e5529b39b6c2b13"
+    },
+    "name": "Ice Elemental",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "iceElemental",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:52:54.760Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:52:54.760Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485c24e5529b39b6c2b16"
+    },
+    "name": "Rock Monster",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "rockMonster",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:53:06.937Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:53:06.937Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485df4e5529b39b6c2b19"
+    },
+    "name": "Dink",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 8.5,
+    "image": "dink",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:53:35.834Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:53:35.834Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485e64e5529b39b6c2b1c"
+    },
+    "name": "Donk",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 8.5,
+    "image": "donk",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:53:42.975Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:53:42.975Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659485fb4e5529b39b6c2b1f"
+    },
+    "name": "Bush Monster",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 4.5,
+    "image": "bushMonster",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:54:03.742Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:54:03.742Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659486174e5529b39b6c2b22"
+    },
+    "name": "Yeti",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.35,
+    "image": "yeti",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:54:31.438Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:54:31.438Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659486364e5529b39b6c2b25"
+    },
+    "name": "Ice Slime",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.08,
+    "image": "iceSlime",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:55:02.175Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:55:02.175Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659486424e5529b39b6c2b28"
+    },
+    "name": "Frozen Fossil",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.05,
+    "image": "frozenFossil",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:55:14.351Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:55:14.351Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659486594e5529b39b6c2b2b"
+    },
+    "name": "Ice Crab",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.02,
+    "image": "iceCrab",
+    "background": "Ice Monsters",
+    "createdAt": {
+      "$date": "2024-01-02T21:55:37.915Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T21:55:37.915Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594898a4e5529b39b6c2b37"
+    },
+    "name": "Two of Spades",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 15.2,
+    "image": "twoOfSpades",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:09:14.080Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:09:14.080Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489954e5529b39b6c2b3a"
+    },
+    "name": "Eat Me",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 15,
+    "image": "eatMe",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:09:25.016Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:09:25.016Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489a04e5529b39b6c2b3d"
+    },
+    "name": "Drink Me",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 15,
+    "image": "drinkMe",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:09:36.593Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:09:36.593Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489aa4e5529b39b6c2b40"
+    },
+    "name": "Alice",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 15,
+    "image": "alice",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:09:46.303Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:09:46.303Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489c34e5529b39b6c2b43"
+    },
+    "name": "Queen of Hearts",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 15,
+    "image": "queenOfHearts",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:10:11.704Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:10:11.704Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489e34e5529b39b6c2b46"
+    },
+    "name": "Dormouse",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 6.5,
+    "image": "dormouse",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:10:43.591Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:10:43.591Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489f04e5529b39b6c2b49"
+    },
+    "name": "White Rabbit",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 6.5,
+    "image": "whiteRabbit",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:10:56.038Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:10:56.038Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "659489ff4e5529b39b6c2b4c"
+    },
+    "name": "Cheshire Cat",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 6.5,
+    "image": "cheshireCat",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:11:11.762Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:11:11.762Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65948a134e5529b39b6c2b4f"
+    },
+    "name": "Caterpillar",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 2.5,
+    "image": "caterpillar",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:11:31.595Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:11:31.595Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65948a224e5529b39b6c2b52"
+    },
+    "name": "Mad Hatter",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 2.5,
+    "image": "madHatter",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:11:46.172Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:11:46.172Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "65948a304e5529b39b6c2b55"
+    },
+    "name": "King of Hearts",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.3,
+    "image": "kingOfHearts",
+    "background": "Wonderland",
+    "createdAt": {
+      "$date": "2024-01-02T22:12:00.592Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-02T22:12:00.592Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad324e5529b39b6c2bbb"
+    },
+    "name": "Toast",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "toast",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:41:22.447Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:41:22.447Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad3a4e5529b39b6c2bbe"
+    },
+    "name": "Cereal",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "cereal",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:41:30.168Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:41:30.168Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad3f4e5529b39b6c2bc1"
+    },
+    "name": "Yogurt",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "yogurt",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:41:35.589Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:41:35.589Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad484e5529b39b6c2bc4"
+    },
+    "name": "Breakfast Combo",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "breakfastCombo",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:41:44.505Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:41:44.505Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad6e4e5529b39b6c2bc7"
+    },
+    "name": "Orange Juice",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "orangeJuice",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:42:22.612Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:42:22.612Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad7a4e5529b39b6c2bca"
+    },
+    "name": "Milk",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 12.5,
+    "image": "milk",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:42:34.450Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:42:34.450Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad874e5529b39b6c2bcd"
+    },
+    "name": "Waffle",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "waffle",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:42:47.773Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:42:47.773Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ad994e5529b39b6c2bd0"
+    },
+    "name": "Pancakes",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "pancakes",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:43:05.286Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:43:05.286Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594adb14e5529b39b6c2bd3"
+    },
+    "name": "French Toast",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 4,
+    "image": "frenchToast",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:43:29.584Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:43:29.584Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594adba4e5529b39b6c2bd6"
+    },
+    "name": "Pizza",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 2,
+    "image": "pizza",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:43:38.834Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:43:38.834Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594addf4e5529b39b6c2bd9"
+    },
+    "name": "Sandwich",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.95,
+    "image": "sandwich",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:44:15.977Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:44:15.977Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594ae064e5529b39b6c2bdc"
+    },
+    "name": "Cookies Combo",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.05,
+    "image": "cookiesCombo",
+    "background": "Breakfast",
+    "createdAt": {
+      "$date": "2024-01-03T00:44:54.345Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:44:54.345Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b0284e5529b39b6c2be4"
+    },
+    "name": "Lil Bot",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "lilBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:00.290Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:00.290Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b02f4e5529b39b6c2be7"
+    },
+    "name": "Lovely Bot",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "lovelyBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:07.382Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:07.382Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b0354e5529b39b6c2bea"
+    },
+    "name": "Angry Bot",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "angryBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:13.404Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:13.404Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b03c4e5529b39b6c2bed"
+    },
+    "name": "Happy Bot",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "happyBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:20.453Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:20.453Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b0434e5529b39b6c2bf0"
+    },
+    "name": "Watson",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "watson",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:27.725Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:27.725Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b04a4e5529b39b6c2bf3"
+    },
+    "name": "Buddy Bot",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "buddyBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:34.848Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:34.848Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b05e4e5529b39b6c2bf6"
+    },
+    "name": "Brainy Bot",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 3.7,
+    "image": "brainyBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:54:54.093Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:54:54.093Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b06b4e5529b39b6c2bf9"
+    },
+    "name": "Mega Bot",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.29,
+    "image": "megaBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-03T00:55:07.990Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:55:07.990Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b11b4e5529b39b6c2bff"
+    },
+    "name": "Amber",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "amber",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T00:58:03.467Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:58:03.467Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b1234e5529b39b6c2c02"
+    },
+    "name": "Dino Egg",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "dinoEgg",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T00:58:11.742Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T00:58:11.742Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b1994e5529b39b6c2c06"
+    },
+    "name": "Dino Fossil",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "dinoFossil",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:00:09.873Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:00:09.873Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b1a64e5529b39b6c2c09"
+    },
+    "name": "Stegosaurus",
+    "rarity": "Uncommon",
+    "price": 5,
+    "chance": 19.5,
+    "image": "stegosaurus",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:00:22.446Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:00:22.446Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b1b34e5529b39b6c2c0c"
+    },
+    "name": "Velociraptor",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "velociraptor",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:00:35.981Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:00:35.981Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b1c04e5529b39b6c2c0f"
+    },
+    "name": "Brontosaurus",
+    "rarity": "Rare",
+    "price": 20,
+    "chance": 9,
+    "image": "brontosaurus",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:00:48.715Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:00:48.715Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b23b4e5529b39b6c2c12"
+    },
+    "name": "Triceratops",
+    "rarity": "Epic",
+    "price": 75,
+    "chance": 3.65,
+    "image": "triceratops",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:02:51.174Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:02:51.174Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b2524e5529b39b6c2c15"
+    },
+    "name": "Tyrannosaurus Rex",
+    "rarity": "Legendary",
+    "price": 200,
+    "chance": 0.3,
+    "image": "tyrannosaurusRex",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:03:14.050Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:03:14.050Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6594b2824e5529b39b6c2c18"
+    },
+    "name": "Golden Dino Egg",
+    "rarity": "Chroma",
+    "price": 300,
+    "chance": 0.05,
+    "image": "goldenDinoEgg",
+    "background": "Dino",
+    "createdAt": {
+      "$date": "2024-01-03T01:04:02.187Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-03T01:04:02.187Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6595fd5c5d7425c22e314723"
+    },
+    "name": "Hacked Bot",
+    "rarity": "Chroma",
+    "price": 350,
+    "chance": 0.01,
+    "image": "hackedBot",
+    "background": "Bot",
+    "createdAt": {
+      "$date": "2024-01-04T00:35:40.856Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-04T00:35:40.856Z"
+    },
+    "__v": 0
+  }
+]

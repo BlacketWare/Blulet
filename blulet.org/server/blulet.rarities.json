@@ -1,0 +1,104 @@
+[
+  {
+    "_id": {
+      "$oid": "657f515b10d0f6cbd46f2879"
+    },
+    "name": "Common",
+    "color": "#ffffff",
+    "animation": "none",
+    "exp": 0,
+    "waitTime": 750,
+    "createdAt": {
+      "$date": "2023-12-17T19:51:55.364Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-17T19:51:55.364Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586561c37f81fa100b906fe"
+    },
+    "name": "Uncommon",
+    "color": "#4bc22e",
+    "animation": "uncommon",
+    "exp": 5,
+    "waitTime": 750,
+    "createdAt": {
+      "$date": "2023-12-23T03:38:04.619Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-23T03:38:04.619Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586561c37f81fa100b90700"
+    },
+    "name": "Rare",
+    "color": "#0a14fa",
+    "animation": "rare",
+    "exp": 10,
+    "waitTime": 750,
+    "createdAt": {
+      "$date": "2023-12-23T03:38:04.632Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-23T03:38:04.632Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586561c37f81fa100b90702"
+    },
+    "name": "Epic",
+    "color": "#be0000",
+    "animation": "epic",
+    "exp": 25,
+    "waitTime": 1250,
+    "createdAt": {
+      "$date": "2023-12-23T03:38:04.634Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-23T03:38:04.634Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586561c37f81fa100b90704"
+    },
+    "name": "Legendary",
+    "color": "#ff910f",
+    "animation": "legendary",
+    "exp": 100,
+    "waitTime": 1250,
+    "createdAt": {
+      "$date": "2023-12-23T03:38:04.636Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-23T03:38:04.636Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "6586561c37f81fa100b90706"
+    },
+    "name": "Chroma",
+    "color": "#00ccff",
+    "animation": "chroma",
+    "exp": 1000,
+    "waitTime": 1750,
+    "createdAt": {
+      "$date": "2023-12-23T03:38:04.638Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-23T03:38:04.638Z"
+    },
+    "__v": 0
+  }
+]
